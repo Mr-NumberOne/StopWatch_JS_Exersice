@@ -1,0 +1,50 @@
+.main_body{
+    background-color: #232323;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: goldenrod 5px outset;
+}
+.timer{
+    padding: 10px;
+    font-size: 40px ;
+    color: goldenrod;
+}
+.timer input{
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    border-radius: 20%;
+    font-size: 50px ;
+    border: goldenrod 3px outset;
+}
+.controls{
+    margin-top: 20px;
+    padding: 20px;
+}
+.controls button{
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: goldenrod 3px outset;
+    background-color: goldenrod;
+    color: white;
+    margin: 0 5px;
+}
+
+.controls button:hover{
+    background-color: rgb(168, 130, 34);
+}
+div h1{
+    color: goldenrod;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Bangers', cursive;
+}
