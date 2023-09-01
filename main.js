@@ -26,9 +26,9 @@ function StartTimer() {
   }
   document.getElementById("start").setAttribute("disabled", "disabled");
 
-  secondsT.value = s;
-  minutesT.value = m;
-  hoursT.value = h;
+  secondsT.value = `${s}`.padStart(2, "0");
+  minutesT.value = `${m}`.padStart(2, "0");
+  hoursT.value = `${h}`.padStart(3, "0");
 }
 
 function reset() {
